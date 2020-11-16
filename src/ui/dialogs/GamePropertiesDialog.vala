@@ -55,6 +55,7 @@ namespace GameHub.UI.Dialogs
 			get_style_context().add_class(Gtk.STYLE_CLASS_FLAT);
 
 			gravity = Gdk.Gravity.NORTH;
+			modal = true;
 
 			content = new Box(Orientation.HORIZONTAL, 8);
 			content.margin_start = content.margin_end = 6;
